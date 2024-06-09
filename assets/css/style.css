@@ -447,7 +447,7 @@ span {
         font-size: 50%;
     }
     .header {
-      width: 80%;
+      width: 70%;
       overflow-x: hidden;
     }
     .contact form .input-box input {
@@ -455,7 +455,7 @@ span {
     }
 }
 @media (max-width: 356px) {
-    .navbar {
+    .header {
       width: 90%;
       overflow-x: hidden;
     }
