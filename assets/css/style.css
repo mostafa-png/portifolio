@@ -35,7 +35,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     padding: 2rem 9%;
     background: var(--bg-color);
     display: flex;
@@ -382,7 +382,7 @@ span {
     }
     .navbar {
         position: absolute;
-        top: 100%;
+        top: 95%;
         left: 30rem;
         width: 100%;
         padding: 1rem 3%;
@@ -445,6 +445,9 @@ span {
     html {
         font-size: 50%;
     }
+    .navbar {
+        width: 80%;
+    }
     .contact form .input-box input {
         width: 100%;
     }
@@ -455,6 +458,9 @@ span {
     }
     .about-img img {
         width: 90vw;
+    }
+    .navbar {
+        width: 80%;
     }
     .footer {
         flex-direction: column-reverse;
