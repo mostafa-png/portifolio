@@ -42,7 +42,7 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    overflow-x: hidden;
+    
 }
 .header .sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
@@ -448,7 +448,6 @@ span {
     }
     .header {
       width: 80%;
-      overflow-x: hidden;
     }
     .contact form .input-box input {
         width: 100%;
@@ -457,7 +456,6 @@ span {
 @media (max-width: 356px) {
     .navbar {
       width: 90%;
-      overflow-x: hidden;
     }
     .home-img img  {
         width: 90vw;
